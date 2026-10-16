@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <header>
+ <nav class="navbar">
+        <h1><a href="index.html">Gabe<span>Byte</span></a></h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="info-grid">
+        <section class="info-card">
+            <h2><i class="fa-solid fa-address-card"></i> Get In Touch</h2>
+            <p><i class="fa-solid fa-location-dot"></i> San Marcelino St, Ermita, Manila, Metro Manila, Philippines</p>
+            <p><i class="fa-solid fa-envelope"></i> support@gabebyte.ph</p>
+            <p><i class="fa-solid fa-phone"></i> (02) 8521-2710</p>
+            <p><i class="fa-solid fa-clock"></i> Monday - Saturday, 8:00 AM - 6:00 PM</p>
+            <p style="margin-top:14px;">For specific product questions, visit the product's page in our <a href="catalog.html" style="color:#b71c1c;">Catalog</a> and use its Inquire Now button instead — it's faster for us to respond to.</p>
+        </section>
+
+        <section class="info-card">
+            <h2><i class="fa-solid fa-comment-dots"></i> General Inquiry Form</h2>
+            <form action="Submit.html" method="get">
+                <div class="form-group">
+                    <label for="userName">Full Name:</label>
+                    <input type="text" id="userName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="userEmail">Email Address:</label>
+                    <input type="email" id="userEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="userSubject">Subject:</label>
+                    <select id="userSubject" name="subject">
+                        <option>General Question</option>
+                        <option>Order Status</option>
+                        <option>Warranty / Repair</option>
+                        <option>Feedback</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="userMsg">Message:</label>
+                    <textarea id="userMsg" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-add">Submit</button>
+            </form>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <p><strong>GabeByte Tech Shop</strong> - Performance Task 1</p>
+    <p>Emilio Aguinaldo College - Computer Programming (.NET Technology)</p>
+    <p class="footer-links">
+        <a href="index.html">Home</a> |
+        <a href="catalog.html">Catalog</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </p>
+</footer>
+</body>
+
+</html>
